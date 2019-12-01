@@ -42,7 +42,8 @@ int main()
 	ifile1.close();
 
 	ofile1.open("file1.txt");
-	ofile1 << a << b;
+	ofile1 << a;
+	ofile1 << b;
 	ofile1.close();
 
 	cout << "Результат смотреть в файле file1.txt в папке с проектом " << endl;
