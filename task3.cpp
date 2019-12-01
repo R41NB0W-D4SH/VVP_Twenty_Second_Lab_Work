@@ -43,6 +43,7 @@ int main()
 
 	ofile1.open("file1.txt");
 	ofile1 << a;
+	ofile1 << ' ';
 	ofile1 << b;
 	ofile1.close();
 
